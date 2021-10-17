@@ -72,6 +72,8 @@ class ExampleApp extends StatelessWidget {
 
           /// Data to be passed to polls widget.
           model: PollFrameModel(
+            id: 1,
+
             /// Title of the widget.
             title: Container(
               alignment: Alignment.centerLeft,

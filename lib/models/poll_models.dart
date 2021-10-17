@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 
 class PollFrameModel {
   /// This model is the main data model to be passed to polls widget.
+  int id;
   int totalPolls;
   final Widget title;
   final List<PollOptions> options;
@@ -11,6 +12,7 @@ class PollFrameModel {
   final bool editablePoll;
 
   PollFrameModel({
+    required this.id,
     required this.totalPolls,
     required this.options,
     this.hasVoted = false,

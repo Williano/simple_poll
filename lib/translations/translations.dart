@@ -1,7 +1,7 @@
 /// These are some custom translations taken from google translate.
 /// The [polls_translation] variable is used for translation for 'polls' word.
 Map<String, String> polls_translation = {
-  'en': 'polls',
+  'en': 'votes',
   'it': 'sondaggi',
   'gr': 'Umfragen',
   'fr': 'les sondages',
@@ -19,7 +19,7 @@ Map<String, String> ends_translation = {
 
 /// The [polling_ended_translation] variable is used for translation for 'Polling ended' word.
 Map<String, String> polling_ended_translation = {
-  'en': 'Polling Ended',
+  'en': 'Voting Ended',
   'it': 'Sondaggio terminato',
   'gr': 'Umfrage beendet',
   'fr': 'Sondage terminé',
